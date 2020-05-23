@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>中信服務讚 on 數位系統科電子文件</title>
+    <link>http://cchong0421.github.io/categories/%E4%B8%AD%E4%BF%A1%E6%9C%8D%E5%8B%99%E8%AE%9A/</link>
+    <description>Recent content in 中信服務讚 on 數位系統科電子文件</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Sat, 23 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cchong0421.github.io/categories/%E4%B8%AD%E4%BF%A1%E6%9C%8D%E5%8B%99%E8%AE%9A/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>中信服務讚(Server) 規格書</title>
+      <link>http://cchong0421.github.io/ctbcapi/</link>
+      <pubDate>Sat, 23 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://cchong0421.github.io/ctbcapi/</guid>
+      <description>Token 取得方式  UI/ExtendToken  </description>
+    </item>
+    
+  </channel>
+</rss>
