@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutorial on 小春子的家</title>
+    <link>https://cchong.tw/tags/tutorial/</link>
+    <description>Recent content in tutorial on 小春子的家</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Oct 2022 23:16:01 +0800</lastBuildDate><atom:link href="https://cchong.tw/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Requirement</title>
+      <link>https://cchong.tw/ubuntu/requirement/</link>
+      <pubDate>Sun, 09 Oct 2022 23:16:01 +0800</pubDate>
+      
+      <guid>https://cchong.tw/ubuntu/requirement/</guid>
+      <description>Ubuntu Requirement</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 教學手冊</title>
+      <link>https://cchong.tw/ubuntu/</link>
+      <pubDate>Sun, 09 Oct 2022 23:15:43 +0800</pubDate>
+      
+      <guid>https://cchong.tw/ubuntu/</guid>
+      <description>Chapter 1 Basic Discover what this Hugo theme is all about and the core-concepts behind it.</description>
+    </item>
+    
+  </channel>
+</rss>

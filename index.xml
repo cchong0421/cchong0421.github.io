@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>首頁 on 小春子的家</title>
+    <link>https://cchong.tw/</link>
+    <description>Recent content in 首頁 on 小春子的家</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Oct 2022 21:18:32 +0800</lastBuildDate><atom:link href="https://cchong.tw/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo-theme-learn Syntax Page</title>
+      <link>https://cchong.tw/syntax/</link>
+      <pubDate>Sun, 09 Oct 2022 21:18:32 +0800</pubDate>
+      
+      <guid>https://cchong.tw/syntax/</guid>
+      <description>HUGO LEARN THEME Hugo-theme-learn is a theme for Hugo, a fast and modern static website engine written in Go. Where Hugo is often used for blogs, this multilingual-ready theme is fully designed for documentation.
+This theme is a partial porting of the Learn theme of Grav, a modern flat-file CMS written in PHP.
+Main features Automatic Search Multilingual mode Unlimited menu levels Automatic next/prev buttons to navigate through menu entries Image resizing, shadow… Attachments files List child pages Mermaid diagram (flowchart, sequence, gantt) Customizable look and feel and themes variants Buttons, Tip/Note/Info/Warning boxes, Expand Contribute to this documentation Feel free to update this content, just click the Edit this page link displayed on top right of each page, and pullrequest it</description>
+    </item>
+    
+    <item>
+      <title>Requirement</title>
+      <link>https://cchong.tw/ubuntu/requirement/</link>
+      <pubDate>Sun, 09 Oct 2022 23:16:01 +0800</pubDate>
+      
+      <guid>https://cchong.tw/ubuntu/requirement/</guid>
+      <description>Ubuntu Requirement</description>
+    </item>
+    
+  </channel>
+</rss>

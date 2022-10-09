@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 小春子的家</title>
+    <link>https://cchong.tw/tags/</link>
+    <description>Recent content in Tags on 小春子的家</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Oct 2022 23:16:01 +0800</lastBuildDate><atom:link href="https://cchong.tw/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux</title>
+      <link>https://cchong.tw/tags/linux/</link>
+      <pubDate>Sun, 09 Oct 2022 23:16:01 +0800</pubDate>
+      
+      <guid>https://cchong.tw/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://cchong.tw/tags/tutorial/</link>
+      <pubDate>Sun, 09 Oct 2022 23:16:01 +0800</pubDate>
+      
+      <guid>https://cchong.tw/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://cchong.tw/tags/ubuntu/</link>
+      <pubDate>Sun, 09 Oct 2022 23:16:01 +0800</pubDate>
+      
+      <guid>https://cchong.tw/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
