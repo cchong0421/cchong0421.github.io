@@ -229,6 +229,11 @@
     <li><a href="#flowchart-syntax-using-mermaid">Flowchart syntax using Mermaid</a></li>
     <li><a href="#notice-syntax">Notice syntax</a></li>
     <li><a href="#tabbed-view-syntax">Tabbed View syntax</a></li>
+    <li><a href="#highcharts-syntax">HighCharts Syntax</a>
+      <ul>
+        <li><a href="#line-chart">Line Chart</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -417,6 +422,102 @@ echo &quot;Hello World!&quot;
     </div>
 </div>
 
+<h2 id="highcharts-syntax">HighCharts Syntax</h2>
+
+
+
+<div id="expertiseSpider" style="min-width: 400px; max-width: 600px; height: 400px; margin: 0 auto"></div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var myChart = Highcharts.chart('expertiseSpider', {
+       
+chart: { polar: true, type: 'area' }, 
+plotOptions: { column: { colorByPoint: true, } }, 
+colors: ['#40a3b8', '#40a3b8'], 
+title: { text: 'Cloud, Automation, Languages, Tooling' }, 
+pane: { size: '80%' }, 
+xAxis: { 
+    categories: [ 'vRealize Suite', 'VMware', 'Dell MX7k', 'JavaScript', 'PowerShell', 'Kubernetes', 'Terraform', 'Docker', 'REST', 'AWS', ], 
+    tickInterval: 0, 
+    min: 0, 
+    max: 10, 
+    tickmarkPlacement: 'off', 
+    lineWidth: 0 }, 
+yAxis: { 
+    gridLineInterpolation: 'polygon', 
+    lineWidth: 0, 
+    min: 0, }, 
+tooltip: { 
+    shared: true, 
+    pointFormat: '{series.name}: {point.y:,.0f}' }, 
+    series: [ { name: 'Experience', data: [9,8,8,8,8,5,6,8,7,5], pointPlacement: 'on', fillOpacity: 0.6 } ], 
+    legend: { enabled: false, }, 
+    credits: { enabled: false, }, 
+    exporting: { enabled: false, }
+
+    });
+  });
+</script>
+<h3 id="line-chart">Line Chart</h3>
+
+
+
+<div id="lineDemo" style="min-width: 400px; max-width: 600px; height: 400px; margin: 0 auto"></div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var myChart = Highcharts.chart('lineDemo', {
+       
+chart: { type: 'line' }, 
+title: { text: 'U.S Solar Employment Growth by Job Category, 2010-2020' }, 
+pane: { size: '80%' }, 
+xAxis: { 
+            accessibility: { rangeDescription: 'Range: 2010 to 2020' } 
+}, 
+yAxis: { 
+    title: { text: 'Number of Employees' }
+},
+legend: {
+    layout: 'vertical',
+    align: 'right',
+    verticalAlign: 'middle'
+},
+plotOptions: {
+    series: {
+        label: {
+            connectorAllowed: false
+        },
+        pointStart: 2010
+    }
+},
+series: [{
+    name: 'Installation & Developers',
+    data: [43934, 48656, 65165, 81827, 112143, 142383,
+        171533, 165174, 155157, 161454, 154610]
+}, {
+    name: 'Manufacturing',
+    data: [24916, 37941, 29742, 29851, 32490, 30282,
+        38121, 36885, 33726, 34243, 31050]
+}, {
+    name: 'Sales & Distribution',
+    data: [11744, 30000, 16005, 19771, 20185, 24377,
+        32147, 30912, 29243, 29213, 25663]
+}, {
+    name: 'Operations & Maintenance',
+    data: [null, null, null, null, null, null, null,
+        null, 11164, 11218, 10077]
+}, {
+    name: 'Other',
+    data: [21908, 5548, 8105, 11248, 8989, 11816, 18274,
+        17300, 13053, 11906, 10073]
+}]
+
+    });
+  });
+</script>
 
 
 <footer class="footline">
@@ -512,9 +613,11 @@ echo &quot;Hello World!&quot;
     <script src="/js/perfect-scrollbar.jquery.min.js"></script>
     <script src="/js/jquery.sticky.js"></script>
     <script src="/js/featherlight.min.js"></script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js" integrity="sha512-gU7kztaQEl7SHJyraPfZLQCNnrKdaQi5ndOyt4L4UPL/FHDd/uB9Je6KDARIqwnNNE27hnqoWLBq+Kpe4iHfeQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/10.2.1/highcharts.min.js" integrity="sha512-AuSt9Vn4P8B4rNTBOOJGGqI89ktzlGugnty4mZa+dR7koM6sJCJVFwtRiM6lIVmFwHOGIdSCyY1l6UcD78CaBA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/10.2.1/highcharts-more.min.js" integrity="sha512-u9pyZuX/atFpUJco4r7LNPjIsEA8q3BHkt0NHgTPvcw772VjCHMVRTNEanid4z7BzuZMbGq41eNg98eLfsMbKg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script src="/js/modernizr.custom-3.6.0.js"></script>
     <script src="/js/learn.js"></script>
     <script src="/js/hugo-learn.js"></script>
