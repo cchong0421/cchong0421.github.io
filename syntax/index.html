@@ -28,8 +28,10 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/lioshi.min.css" integrity="sha512-txLHZICNjSwjUE80DKnPyZ74HB5+Zc1Bzs8L2qjsrB21L1Bt91fFTCIYrd3vAo6YvaOl8CWjkMOXNZ+8PbP32Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highcharts/10.2.1/css/highcharts.min.css" integrity="sha512-EdQYgIlsKc4GejWW6mB4JgQPrsvuwR+365Zr86uNx4sd+9vFxyhJxPzEV7axYLTULBdmdR4jGsK20MmkJoTHHg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/jquery.dataTables.min.css" integrity="sha512-1k7mWiTNoyx2XtmI96o+hdjP8nn0f3Z2N4oF/9ZZRgijyV4omsKOXEnqL1gKQNPy2MTSP9rIEWGcH/CInulptA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js" integrity="sha512-BkpSL20WETFylMrcirBahHfSnY++H2O1W+UnEEO4yNIl+jI2+zowyoGJpbtk6bx97fBXf++WJHSSK2MV4ghPcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -293,7 +295,75 @@
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    ]
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="button-shortcode">Button shortcode</h2>
+</span></span></code></pre></div>
+<div style="justify-content: center; align-items: center;">
+  <table id="book-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Publisher</th>
+        <th>Rating</th>
+        <th>Date Read</th>
+        <th>Pages</th>
+        <th>Fiction?</th>
+        <th>Female Author?</th>
+      </tr>
+    </thead>
+    <tbody>
+    
+    
+      <tr>
+        <td>The Hate U Give</td>
+<td>Angie Thomas</td>
+<td>Balzer &#43; Bray</td>
+<td>5</td>
+<td>2020-03-23</td>
+<td>392</td>
+<td>true</td>
+<td>true</td>
+      </tr>
+    
+      <tr>
+        <td>The Last Wish</td>
+<td>Andrzej Sapowski</td>
+<td>Gollancz</td>
+<td>3</td>
+<td>2020-01-28</td>
+<td>351</td>
+<td>true</td>
+<td>false</td>
+      </tr>
+    
+      <tr>
+        <td>The Last Wish 2</td>
+<td>Andrzej Sapowski 3</td>
+<td>Gollancz 3</td>
+<td>12</td>
+<td>2020-01-28</td>
+<td>351</td>
+<td>false</td>
+<td>false</td>
+      </tr>
+    
+    </tbody>
+  <table>
+</div>
+
+<script>
+  $(document).ready( function () {
+    $('#book-table').DataTable({
+      colReoder: true,
+      autoFill: true,
+      buttons: true,
+      fixedHeader: true,
+      keyTable: true,
+      responsive: true,
+      rowReoder: true
+    });
+} );
+</script>
+<h2 id="button-shortcode">Button shortcode</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{% button href=&#34;#&#34; %}}Get Grav{{% /button %}}
 </span></span><span style="display:flex;"><span>{{% button href=&#34;#&#34; icon=&#34;fas fa-download&#34; %}}Get Grav with icon{{% /button %}}
 </span></span><span style="display:flex;"><span>{{% button href=&#34;#&#34; icon=&#34;fas fa-download&#34; icon-position=&#34;right&#34; %}}Get Grav with icon right{{% /button %}}
